@@ -1,0 +1,28 @@
+{
+  "name": "pixel-profit",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:iratao/pixel-profit.git",
+  "author": "<iratao@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^22.8.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "mime-types": "^2.1.35",
+    "sharp": "^0.33.5",
+    "tesseract.js": "^5.1.1"
+  }
+}
